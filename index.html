@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<title>Add Your New Contact</title>
+    	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    	<script src="js/jquery-3.4.1.js"></script>
+    	<script src="js/scripts.js"></script>
+  	</head>
+  	<body>
+
+  	<section class="title">
+
+  		<div class="container">
+  			<h1>My personal address book</h1>
+  			<p>Keep all your contacts stored safely in one place.</p>
+  		</div>
+
+  	</section>
+
+  	<section class="contacts">
+
+  		<div class="container">
+  			<h2>Contact List</h2>
+  			<ul class="names">
+  				<li>
+  					<a href="#" id="contact1">Adam Davidson</a>
+  					<div id="info">
+  						<p>Address: 4583 NW Thorncroft Dr<br>City/State: Tualatin, OR<br>Zip Code: 97062<br>Primary Email: adavidson@gmail.com</p>
+  					</div>
+  				</li>
+  				<li>
+  					<a href="#">Brittney Karbowski</a>
+  				</li>
+  				<li>
+  					<a href="#">Calvin Hayes</a>
+  				</li>
+  				<li>
+  					<a href="#">Dennis Olufson</a>
+  				</li>
+  				<li>
+  					<a href="#">Emily Neves</a>
+  				</li>
+  			</ul>
+  		</div>
+
+  	</section>
+
+  	<section class="newcontacts">
+
+  		<div class="container">
+  			<h2>Add a New Contact</h2>
+  			<button class="btn btn-primary" id="open">Create New Contact</button>
+  			<form id="addcontact">
+  				<div id="entries">
+  					<div class="form-row">
+    					<div class="form-group col-md-6">
+      						<label for="firstname">First Name</label>
+      						<input type="firstname" class="form-control" id="firstname">
+    					</div>
+    					<div class="form-group col-md-6">
+      						<label for="lastname">Last Name</label>
+      						<input type="lastname" class="form-control" id="lastname">
+    					</div>
+  					</div>
+  					<div class="form-row">
+  						<div class="form-group col-md-6">
+    						<label for="address">Home Address</label>
+    						<input type="text" class="form-control" id="address">
+  						</div>
+  						<div class="form-group col-md-2">
+    						<label for="city">City</label>
+    						<input type="text" class="form-control" id="city">
+  						</div>
+  						<div class="form-group col-md-2">
+    						<label for="state">State</label>
+    						<select class="form-control" id="state">
+  								<option selected>Choose your state</option>
+  								<option>Oregon (OR)</option>
+  								<option>Washington (WA)</option>
+  								<option>California (CA)</option>
+  								<option>Arizona (AZ)</option>
+  								<option>Nevada (NV)</option>
+							</select>
+  						</div>
+  						<div class="form-group col-md-2">
+    						<label for="zip">Zip Code</label>
+    						<input type="text" class="form-control" id="zip">
+  						</div>
+  					</div>
+  					<div class="form-row">
+  						<div class="form-group col-md-6">
+  							<label for="phone">Primary Phone</label>
+    						<input type="text" class="form-control" id="phone">
+  						</div>
+  						<div class="form-group col-md-6">
+  							<label for="email">Primary Email</label>
+    						<input type="text" class="form-control" id="email">
+  						</div>
+  					</div>
+  					<div class="form-row">
+  						<div class="form-group col-md-6">
+  							<label for="twitter">Twitter</label>
+    						<input type="text" class="form-control" id="twitter" placeholder="@">
+  						</div>
+  						<div class="form-group col-md-6">
+  							<label for="instagram">Instagram</label>
+    						<input type="text" class="form-control" id="instagram" placeholder="@">
+  						</div>
+  					</div>
+  					<button class="btn btn-primary" id="add">Add</button>
+  				</div>
+  			</form>
+  		</div>
+  	</section>
+
+  	</body>
+</html>

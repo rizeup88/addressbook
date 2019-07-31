@@ -1,0 +1,35 @@
+html body {
+	background-color: #edf1ff;
+}
+
+h1 {
+	font-family: "Roboto";
+	color: #464e6b;
+}
+
+p {
+	font-family: "Roboto";
+	color: #464e6b;
+}
+
+.contacts {
+	padding-top: 2em;
+}
+
+.contacts .names {
+	list-style-type: none;
+}
+
+#info {
+	display: none;
+	margin-top: 1em;
+}
+
+.newcontacts {
+	padding-top: 1em;
+}
+
+#entries {
+	display: none;
+	padding-top: 2em;
+}
