@@ -1,6 +1,10 @@
 $(document).ready(function() {
   $('a#contact1').click(function() {
-  	$('#info').toggle();
+  	$('#info1').toggle();
+  });
+
+  $('a#contact2').click(function() {
+  	$('#info2').toggle();
   });
 
   $('button#open').click(function() {
